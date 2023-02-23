@@ -1,0 +1,198 @@
+@import url('reset.css');
+
+[class*="_container"] {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Poppins';
+    color: #E5E5E5;
+    margin: 0 auto;
+    background-image: url('../img/vence.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 330px 0px 100px 0px;
+
+}
+.vence_text {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 15px
+   
+}
+.vence_text:last-child {
+    margin-bottom: 0px;
+}
+.vence_title {
+    margin-bottom: 15px;
+    color: #F8F9FA;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+main {
+    font-family: 'Inter' , sans-serif;
+    background-color: #E5E5E5;
+
+}
+
+h2 {
+   padding: 40px 0px 40px 0px;
+    color: #212B36;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.list {
+    
+    padding-bottom: 60px;
+    color: #637381;
+    font-weight: 600;
+    font-size: 16;
+}
+
+li {
+    min-height: 20px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.list_one li {
+    background: url('../img/first.svg') 0 center no-repeat;
+    padding-left: 17px;
+   
+}
+.list .list_item:hover {
+    color:darkcyan;
+    transition: 0.6s;
+    transform: translateX(30px);
+}
+
+.list_two li {
+    background: url('../img/second.svg') 0 center no-repeat;
+    
+}
+
+.list_three li {
+    background: url('../img/third.svg') 0 center no-repeat;
+    
+}
+.list_four li {
+    background: url('../img/quarter.svg') 0 center no-repeat;
+}
+.list_five li {
+    background: url('../img/fifth.svg') 0 center no-repeat;
+}
+.list_six li {
+    background: url('../img/sixth.svg') 0 center no-repeat;
+}
+
+footer {
+    min-height: 560px;
+    
+}
+
+.tailgrids {
+    background: url('../img/speaker.png') 70% center no-repeat, linear-gradient(295deg, hsla(226, 72%, 52%, 0.08) 35%, rgba(0,0,0,0) 15%),linear-gradient(295deg, hsla(0, 3%, 11%, 0) 0%, rgba(43, 84, 220, 0.08) 29%, rgba(0,0,0,0) 0%)#f4f7ff;
+}
+.footer_content {
+    font-family: 'Inter', sans-serif;
+    padding-top: 140px;
+    display: inline-block;
+    max-width: 570px;
+  
+}
+.cost {
+    color: #3056D3;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+h3 {
+    
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color:#212B36;
+
+}
+.footer_text {
+    margin-bottom: 20px;
+    color: #637381;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #3056D3;
+    border-radius: 30px;
+    color: #ffffff;
+  
+}
+.btn:hover {
+    transition: 0.3s;
+    transform: translateX(20px);
+    background-color:darkred;
+}
+  
+
+.homework {
+    background:lavender;
+    border-radius: 20px;
+}
+h4 {
+    
+    color:crimson;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    text-transform: uppercase;
+    transition: all 2s;
+    
+}
+h4:hover {
+    color:#3056D3;
+    text-decoration: underline;
+}
+h4 {
+    padding-bottom: 40px;
+    color: chocolate;
+    font-weight: 200;
+    font-size: 35px;
+    text-align: center;
+   
+}
+.motivational_video {
+    padding-bottom: 40px;
+}
+.motivational_video ul {
+    
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+.motivational_video:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+.list_homework {
+    margin-left: 270px;
+}
+.list_homework li {
+ display: inline-block;
+ color:darkblue;
+ font-weight: 100;
+ font-size: 20px;
+ padding-right: 100px;
+}
